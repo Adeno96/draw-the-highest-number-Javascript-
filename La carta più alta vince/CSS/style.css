@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-size: 2.5em;
+}
+/*------AREA GIOCO-----*/
+.container-carte {
+    border: 5px double brown;
+    max-width: 650px;
+    min-height: 500px;
+
+    overflow: auto;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+#cartaUno {
+    border: 2px solid brown;
+    border-radius: 12px;
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    float: left;
+
+    /*--TESTO--*/
+    text-align: center;
+    font-size: 5em;
+    padding: 150px 45px;
+    color: brown;
+}
+
+#cartaDue {
+    border: 2px solid brown;
+    border-radius: 12px;
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    float: right;
+
+    /*--TESTO--*/
+    text-align: center;
+    font-size: 5em;
+    padding: 150px 45px;
+    color: brown;
+}
+/*-----BOTTONE-----*/
+#gioca {
+    border: 2px solid brown;
+    border-radius: 5px;
+    color: brown;
+    font-size: 1.3em;
+    padding: 8px 18px;
+
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+#gioca:hover {
+    background-color: brown;
+    color: white;
+}
+/*-----MESS VITTORIA/SCONFITTA------*/
+h2 {
+    color: brown;
+    font-size: 2em;
+    text-align: center;
+
+    display: none;
+}
